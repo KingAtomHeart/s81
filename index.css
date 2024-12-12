@@ -1,13 +1,12 @@
+/* General Styles */
 * {
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
-    font-family: "Lora", serif;
     box-sizing: border-box;
 }
 
-/*navbar*/
-
+/* Navbar Styles */
 .navbar {
     background-color: #3a3a3c; /* Dark muted gray */
     border-bottom: 2px solid #a7a9ab; /* Accent muted gray */
@@ -38,13 +37,18 @@
     background-color: #e6e6e6; /* Light gray */
 }
 
-/*featured*/
+/* Featured Section Styles */
+
+#featured-section {
+    background: url('images/background4.png') no-repeat center center / cover;
+    padding: 3rem 0;
+}
 
 .card {
     border: none;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card-hover:hover {
@@ -63,21 +67,22 @@
     font-size: 1.25rem;
     font-weight: bold;
     color: #343a40;
+    font-family: "Roboto", sans-serif;
 }
 
 .card-text {
     color: #6c757d;
+    font-family: "Roboto", sans-serif;
 }
 
 .carousel-indicators button {
     background-color: #343a40;
 }
 
-/*home*/
-
+/* Home Section Styles */
 #home {
     min-height: 93vh;
-    background: url('images/background6.png') no-repeat center center/cover;
+    background: url('images/background6.png') no-repeat center center / cover;
 }
 
 .custom-shape-divider-bottom-1733970794 {
@@ -102,12 +107,7 @@
     fill: #FFFFFF;
 }
 
-/*introduction*/
-
-
-/*categories*/
-
-/* Categories Section */
+/* Categories Section Styles */
 #categories-section {
     background-color: #f9f9f9;
     padding: 3rem 0;
@@ -120,6 +120,7 @@
     margin-bottom: 2rem;
     text-transform: uppercase;
     letter-spacing: 2px;
+    font-family: "Roboto", sans-serif;
 }
 
 #categories .card {
@@ -146,12 +147,14 @@
     color: #007bff;
     margin-bottom: 1rem;
     font-weight: bold;
+    font-family: "Roboto", sans-serif;
 }
 
 #categories .card-text {
     font-size: 1rem;
     color: #666;
     line-height: 1.6;
+    font-family: "Roboto", sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -172,22 +175,23 @@
     }
 }
 
-
-/*footer*/
-
+/* Footer Styles */
 .footer {
     background-color: #3a3a3c; /* Dark muted gray */
     color: #d9d9d9; /* Muted light gray */
+    font-family: "Roboto", sans-serif;
 }
 
 .footer p {
     margin: 0;
     color: #d9d9d9; /* Muted light gray */
+    font-family: "Roboto", sans-serif;
 }
 
 .footer a {
     color: #84a9c0; /* Muted teal/blue accent */
     text-decoration: none;
+    font-family: "Roboto", sans-serif;
 }
 
 .footer a:hover {
