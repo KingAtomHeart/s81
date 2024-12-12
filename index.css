@@ -37,11 +37,29 @@
     background-color: #e6e6e6; /* Light gray */
 }
 
+/*introduction*/
+
+
+
 /* Featured Section Styles */
 
-#featured-section {
+#featured {
     background: url('images/background4.png') no-repeat center center / cover;
     padding: 3rem 0;
+}
+
+.asdf {
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: #6E6E6E;
+    font-family: "Roboto", sans-serif;
+}
+
+.asdf1 {
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: #6E6E6E;
+    font-family: "Roboto", sans-serif;
 }
 
 .card {
@@ -58,8 +76,8 @@
 
 .card-body {
     text-align: center;
-    padding: 20px;
-    background: #f8f9fa;
+    padding: 30px;
+    background: #A8A8A8;
     border-radius: 10px;
 }
 
